@@ -20,7 +20,7 @@ be all lowercase by convention.
   * First letter should be uppercase.
   * Each inner word's first letter is also uppercase
   * Encouraged are letters and numbers 
-  ```java
+  ```text
         class MyJavaProgram    // valid syntax
         class 1Program         // invalid syntax
         class My1Program       // valid syntax
@@ -140,8 +140,19 @@ sum_&_difference // ampersand is not an alphanumeric character
 
 Scope of a variable is the part of the program where the variable is accessible. Java programs are organized in the form of classes. Every class is part of some package. Java scope rules can be covered under following categories.
 
+Scope is defined by set of brackets {} in general.
+In Java we can usually access a variable as long as it was defined within the same set of brackets as the code we are writing or within any curly brackets inside of the curly brackets where the variable was defined.
+
+When a method has the same local variable as a member, “this” keyword can be used to reference the current class variable.
+
+
 1. **Member Variables (Class Level Scope)** 
    1. Must be declared inside class, outside any function
    2. They can be directly accessed anywhere in class.
-![Class level scope](/src/main/resources/images-md/class-level-scope.png)
-2. 
+![Class level scope](class-level-scope.png)
+2. **Local Variables (Method Level Scope)**
+   1. Variables declared inside a method have method level scope and can’t be accessed outside the method. 
+   2. Local variables don’t exist after method’s execution is over. 
+3. **Loop Variables (Block Scope)**
+   1. A variable declared inside pair of brackets “{” and “}” in a method has scope within the brackets only.
+   2. 
