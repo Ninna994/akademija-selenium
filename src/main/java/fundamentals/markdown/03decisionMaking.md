@@ -6,7 +6,8 @@ Decision Making in programming is similar to decision-making in real life. In pr
 
 1. **if** - It is used to decide whether a certain statement or block of statements will be executed or not
    1. if a certain condition is true then a block of statement is executed otherwise not
-   2. syntax
+   2. Description - If a certain situation occurs, _do something_ and then go back to the main flow.
+   3. syntax
 ```java
     if(condition){
         // Statements to execute if
@@ -14,7 +15,10 @@ Decision Making in programming is similar to decision-making in real life. In pr
     }
 ```
 2. **if-else** - We can use the else statement with if statement to execute a block of code when the condition is false.
-   1. syntax
+   1. If certain situation occurs do something. Otherwise, do something else
+   2. 2 paths
+   3. If we have only one condition then {} can be ommited
+   4. syntax
 ```java
    if(condition){
     //execute if true
@@ -23,7 +27,11 @@ Decision Making in programming is similar to decision-making in real life. In pr
     }
 ```
 3. **nested-if** -  Nested if statements mean an if statement inside an if statement
-   1. syntax
+   1. Description - The if-else-if statement is used when there are more than two possible paths.
+      1. If situation A occurs, do something
+      2. Else if situation B occurs do something else
+      3. Else if situation C occurs do somthing else
+   2. syntax
 ```java
     if(condition1){
     //execute when condition 1 is true
@@ -46,12 +54,17 @@ Decision Making in programming is similar to decision-making in real life. In pr
 ```
 5. **switch** - The switch statement is a multiway branch statement. 
    1. It provides an easy way to dispatch execution to different parts of code based on the value of the expression.
-   2. **expression** can be byte, short, int char, or an enumeration(and String)
-   3. duplicate case values are not allowed
-   4. **default** statement is optional
-   5. **break** terminates statement sequence
+      1. If situation A occurs, do something. 
+      2. Else if situation B occurs, do something else. 
+      3. Else if situation C occurs, do something else.
+   2. The first one that is true is executed, same as in if-else-if
+   3. the if-else-if checks the condition to be true; whereas the switch statement checks for equality
+   4. **expression** can be byte, short, int char, or an enumeration(and String)
+   5. duplicate case values are not allowed
+   6. **default** statement is optional
+   7. **break** terminates statement sequence
       1. break is optional. If omitted, execution will continue on into the next case
-   6. syntax
+   8. syntax
 ```java
     switch (expression)
         {
