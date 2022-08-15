@@ -54,6 +54,8 @@ inside methods.
 * **end of statement** - ```;```
 
 * **Access Modifiers** - [Link for table](https://prnt.sc/0OQ1hREuviTf)
+  * **static** -  Static is used for members of a class which can be accessed without using an instance of the class to do so. Because it’s not associated with an instantiation, these members have no state.
+    * 
 
 # Variables
 
@@ -73,6 +75,8 @@ Important notes about variables:
 Declaring variables:
 
 * datatype ```int``` data_name ```count```
+* **constants** - A constant is a field within your class whose value does not change.
+  * ALL CAPS
 
 ## Initialize variables:
 
