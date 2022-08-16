@@ -7,6 +7,8 @@ public class Rectangle {
     private double length;
     private double width;
 
+    protected double sides = 4;
+
     public double calculatePerimeter() {
         return (2 * length) + (2 * width);
     }
@@ -50,5 +52,13 @@ public class Rectangle {
         //or
         // setWidth(width);
         // setLength(length);
+    }
+
+    public double getSides() {
+        return sides;
+    }
+
+    public void setSides(double sides) {
+        this.sides = sides;
     }
 }
