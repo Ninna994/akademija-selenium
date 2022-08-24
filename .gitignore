@@ -40,7 +40,6 @@ test-output/
 *.mov
 *.wmv
 *.xlsx
-*.png
 *.jpg
 *.gif
 
