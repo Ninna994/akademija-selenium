@@ -1,6 +1,21 @@
-# Decision Making
+# Control flow and decision-making
 
-Decision Making in programming is similar to decision-making in real life. In programming also face some situations where we want a certain block of code to be executed when some condition is fulfilled. 
+* Decision-making in programming is similar to decision-making in real life.
+* In programming also face some situations where we want a certain block of code to be executed when some condition is fulfilled.
+* Java compiler executes the code from top to bottom.
+* However, Java provides statements that can be used to control the flow of Java code. Such statements are called control flow statements. It is one of the fundamental features of Java, which provides a smooth flow of progra
+* Three types of control flow statements
+  * Decision-making
+    * if
+    * switch
+  * Loop
+    * do while
+    * while
+    * for
+    * for each
+  * Jump
+    * break
+    * continue
 
 ## Selection Statements
 
