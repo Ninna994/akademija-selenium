@@ -31,6 +31,14 @@ Primitive data are only single values and have no special capabilities. There ar
 5. **char** single 16bit unicode character (size 2 byte - not 1 because of cyrillic, arabic etc)
    10. syntax: ```char charVar;```
    11. values: ```\u0000 to \uffff``` or ```0 to 65535```
+6. **byte** - The byte data type is used to save memory in large arrays where the memory savings is most required. It saves space because a byte is 4 times smaller than an integer. It can also be used in place of "int" data type.
+   1. minimum `-128` maximum `127` 
+   2. default 0
+7. **short** - The short data type can also be used to save memory just like byte data type. A short data type is 2 times smaller than an integer.
+   1. minimum `-32768` maximum `32767`
+   2. default 0
+8. **float** - Its value range is unlimited. The float data type should never be used for precise values, such as currency
+   1. default `0.0F`
 
 ## Types of Non-Primitive Data Types / Reference Data Types
 
@@ -53,11 +61,11 @@ The Reference Data Types will contain a memory address of variable values becaus
          3. **Identity:** It gives a unique name to an object and enables one object to interact with other objects.
    3. **Interface** can have methods and variables, but the methods declared in an interface are by default abstract (only method signature, no body).
       1. Interfaces specify what a class must do and not how. It is the blueprint of the class
-   4. **Array** - a group of like-typed variables that are referred to by a common name
-      1. all arrays are dynamically allocated
-      2. A Java array variable can also be declared like other variables with [] after the data type
-      3. The variables in the array are ordered and each has an index beginning from 0.
-      4. Java array can also be used as a static field, a local variable, or a method parameter
-      5. The size of an array must be specified by an int value and not long or short
-      6. The direct superclass of an array type is Object
+3. **Array** - a group of like-typed variables that are referred to by a common name
+   1. all arrays are dynamically allocated
+   2. A Java array variable can also be declared like other variables with [] after the data type
+   3. The variables in the array are ordered and each has an index beginning from 0.
+   4. Java array can also be used as a static field, a local variable, or a method parameter
+   5. The size of an array must be specified by an int value and not long or short
+   6. The direct superclass of an array type is Object
       

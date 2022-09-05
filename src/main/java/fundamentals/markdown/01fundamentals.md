@@ -137,7 +137,8 @@ variable-2 // hyphen is not an alphanumeric character
 sum_&_difference // ampersand is not an alphanumeric character
 ```
 
-* **Reserved words** - Any programming language reserves some words to represent functionalities defined by that language. These words are called reserved words.They can be briefly categorized into two parts : keywords(50) and literals(3)
+* **Reserved words** - Any programming language reserves some words to represent functionalities defined by that language. These words are called reserved words.They can be briefly categorized into two parts : keywords(50) and literals(3) 
+  * [Example link](https://www.javatpoint.com/java-keywords)
 
 
 ## Scope of Variables
@@ -159,4 +160,3 @@ When a method has the same local variable as a member, “this” keyword can be
    2. Local variables don’t exist after method’s execution is over. 
 3. **Loop Variables (Block Scope)**
    1. A variable declared inside pair of brackets “{” and “}” in a method has scope within the brackets only.
-   2. 
