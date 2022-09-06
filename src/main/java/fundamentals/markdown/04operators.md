@@ -6,9 +6,6 @@ Some of them are:
 1. **Arithmetic Operators**
    1. Used for arithmetic operations on primitive data types
    2. `*, /, %, +, -`
-   3. `<<` - shift left - is used to shift all of the bits in a value to the left side of a specified number of times.
-   4. `>>` - is used to move the value of the left operand to right by the number of bits specified by the right operand.
-   5. 
 2. **Unary Operators**
    1. Need only one operand. Used to increment, decrement or negate a value
    2. `-, +, ++, --, !` (logical not, used to invert boolean)
@@ -34,10 +31,11 @@ Some of them are:
    2. general format ```condition ? if true : if false```
    3. The above statement means that if the condition evaluates to true, then execute the statements after the ‘?’ else execute the statements after the ‘:’.
    4. 
-7. Instance of Operator
-8. Bitwise Operators
+7. **Instance of Operator**
+8. **Bitwise Operators**
    1. `&, ^, |`
    2. The bitwise & operator always checks both conditions whether first condition is true or false.
-   3. 
-9. Shift Operators
+9. **Shift Operators**
+   1. `<<` - shift left - is used to shift all of the bits in a value to the left side of a specified number of times.
+   4. `>>` - is used to move the value of the left operand to right by the number of bits specified by the right operand.
 

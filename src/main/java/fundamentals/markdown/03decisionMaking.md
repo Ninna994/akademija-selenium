@@ -77,13 +77,15 @@
       2. Else if situation B occurs, do something else. 
       3. Else if situation C occurs, do something else.
    2. The first one that is true is executed, same as in if-else-if
-   3. the if-else-if checks the condition to be true; whereas the switch statement checks for equality
-   4. **expression** can be byte, short, int char, or an enumeration(and String)
-   5. duplicate case values are not allowed
-   6. **default** statement is optional
-   7. **break** terminates statement sequence
+   3. The case values must be unique. In case of duplicate value, it renders compile-time error.
+   4. the if-else-if checks the condition to be true; whereas the switch statement checks for equality
+   5. **expression** can be byte, short, int char, or an enumeration(and String)
+   6. duplicate case values are not allowed
+   7. **default** statement is optional
+   8. **break** terminates statement sequence
       1. break is optional. If omitted, execution will continue on into the next case
-   8. syntax
+   9. ![switch](switch.png)
+   10. syntax
 ```java
     switch (expression)
         {

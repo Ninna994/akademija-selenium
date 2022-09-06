@@ -6,6 +6,7 @@ Loops are structures that cause a block of code to repeat.
 
 Programmers use the mnemonic DRY, which stands for Don't Repeat Yourself.
 
+![for while explanation](for-while-exp.png)
 
 ## While loop
 
