@@ -4,8 +4,9 @@ import java.util.Random;
 
 public class Arrays {
 
-    private static int LENGTH = 6; //constant
-    private static final int MAX_TICKET_NUMBER = 69;
+    private static int length = 6; //constant
+    private static final int maxTicketNumber = 69;
+    static Random random = new Random();
 
     public static void main(String[] args) {
         // Create lotto quick pick app that will generate a lotto ticket with 6 random numbers between 1-69
@@ -14,18 +15,18 @@ public class Arrays {
     }
 
     public static int[] generateNumbers(){
-        int[] ticket = new int[LENGTH];
-        Random random = new Random();
+        int[] ticket = new int[length];
 
-        for(int i=0; i< LENGTH; i++){
-            ticket[i] = random.nextInt(MAX_TICKET_NUMBER) + 1;
+
+        for(int i=0; i< length; i++){
+            ticket[i] = random.nextInt(maxTicketNumber) + 1;
         }
 
         return ticket;
     }
 
-    public static void printTicket(int ticket[]){
-        for(int i=0; i<LENGTH; i++){
+    public static void printTicket(int[] ticket){
+        for(int i=0; i<length; i++){
             System.out.print(ticket[i] + " | ");
         }
     }
