@@ -38,6 +38,23 @@ public class DecisionMaking {
         System.out.println("### Exercise 5 - Grade explanations.");
         gradeExplanation();
 
+        /*
+        For inserted age check if user has 18+. If it does print Age is greater than 18.
+         */
+        System.out.println("### Exercise 6 - IF Age checker");
+        ageChecker();
+
+         /*
+        For inserted number check if it is even or odd
+         */
+        System.out.println("### Exercise 7 - IF-ELSE Even or odd number");
+        evenOddChecker();
+
+        /*
+        For inserted year check if it is leap or common
+         */
+        System.out.println("### Exercise 8 - IF-ELSE Leap year");
+        leapYear();
     }
 
     public static void salaryCalculator() {
@@ -151,5 +168,46 @@ public class DecisionMaking {
                 break;
         }
         System.out.println(message);
+    }
+
+    public static  void ageChecker(){
+        System.out.println("Insert age to check: ");
+        Scanner scanner = new Scanner(System.in);
+        int age = scanner.nextInt();
+        scanner.close();
+        //checking the age
+        if(age>18){
+            System.out.print("Age is greater than 18");
+        }
+    }
+
+    public static  void evenOddChecker(){
+        System.out.println("Insert number to check: ");
+        Scanner scanner = new Scanner(System.in);
+        int number = scanner.nextInt();
+        scanner.close();
+        //checking the age
+        if(number % 2 ==0){
+            System.out.print("EVEN");
+        }else{
+            System.out.println("ODD");
+        }
+        /*
+        or ternary:
+        String output=(number%2==0)?"even number":"odd number";
+         */
+    }
+
+    public static void leapYear(){
+        System.out.println("Insert number to check: ");
+        Scanner scanner = new Scanner(System.in);
+        int year = scanner.nextInt();
+        scanner.close();
+        if ((year % 4 ==0) && (year % 100 != 0) || (year % 400 == 0)){
+            System.out.println("LEAP");
+        }else{
+            System.out.println("COMMON");
+        }
+
     }
 }
