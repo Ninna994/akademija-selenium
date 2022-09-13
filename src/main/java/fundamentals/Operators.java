@@ -43,6 +43,7 @@ public class Operators {
         System.out.println(a * b);//50
         System.out.println(a / b);//2
         System.out.println(a % b);//0
+        // stepenovanje u Javi
         System.out.println(10 * 10 / 5 + 3 - 1 * 4 / 2);
         System.out.println(10 << 2);//10*2^2=10*4=40
         System.out.println(10 << 3);//10*2^3=10*8=80

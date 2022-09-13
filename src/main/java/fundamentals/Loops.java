@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class Loops {
     public static void main(String[] args) {
-    /*
-    Each store employee makes 15dollars an hour.
-    Write a program that allows a manager to enter the number of weekly hours worked for each employee and calculate their pay.
-    Do not allow for overtime.
-     */
+        /*
+        Each store employee makes 15dollars an hour.
+        Write a program that allows a manager to enter the number of weekly hours worked for each employee and calculate their pay.
+        Do not allow for overtime.
+         */
         System.out.println("Excercise 1 - Gross calculator");
         //grossCalculator();
 
@@ -73,7 +73,7 @@ public class Loops {
 
             System.out.println("The sum is : " + sum);
 
-            System.out.println("Would you like to start over? True or False");
+            System.out.println("Would you like to start over?   True or False");
             again = scanner.nextBoolean();
 
         }while (again);

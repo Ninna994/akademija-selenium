@@ -20,6 +20,9 @@ Programmers use the mnemonic DRY, which stands for Don't Repeat Yourself.
   * If it evaluated to true, then the loop body statements are executed otherwise first statement following the loop is executed.
   * Once the condition is evaluated to true, the statements in the loop body are executed. Normally the statements contain an update value for the variable being processed for the next iteration.
   * When the condition becomes false, the loop terminates which marks the end of its life cycle.
+* Notes
+  * While has condition before the block - block is never executed if condition is false from start
+  * So, to conclude, there is chance that while block will never be executed
 
 Syntax:
 
@@ -42,7 +45,9 @@ Syntax:
   * **Statement execution:** Once the condition is evaluated to true, the statements in the loop body are executed.
   * **Increment/ Decrement:** It is used for updating the variable for next iteration. 
   * **Loop termination:** When the condition becomes false, the loop terminates marking the end of its life cycle.
-
+* Notes
+  * Counter i is defined only in block of for loop.
+  * If we want to use it elsewhere we need to define it outside the foor loop
 
 Syntax:
 
@@ -64,6 +69,9 @@ Syntax:
   * After the execution of the statements, and update of the variable value, the condition is checked for true or false value. If it is evaluated to true, next iteration of loop starts.
   * When the condition becomes false, the loop terminates which marks the end of its life cycle
   * It is important to note that the do-while loop will execute its statements atleast once before any condition is checked, and therefore is an example of exit control loop.
+* Notes
+  * If we want our code to run at least once, we use do while loop.
+  * This loop first executes statement  and at the end it checks condition
 
 Syntax:
 
