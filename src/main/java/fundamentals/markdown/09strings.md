@@ -7,7 +7,7 @@
 * Java does not have embedded type string but instead of that it uses predefined class String
 * Every string surrounded with `" "` represents class String
 * Strings are immutable
-  * Objects of String class are immutable
+  * Objects of String class are immutable 
 
 ```java
     String e = "";
@@ -87,7 +87,7 @@
 
 * There are more than 50 methods connected to Strings in Java
 * **charAt()** - will allow you to get a specific character within the String by its index. This is how you would iterate a String as you would an array. So, you won't be able to use the brackets like we use for other arrays. You would use the charAt() method within a loop, for example. Or if you wanted to get the very first element of the String, you can do a charAt(0).
-* **contains()** - will allow you to see if a String contains a certain sequence of characters.
+* ~~**contains()** - will allow you to see if a String contains a certain sequence of characters.
 * **equals() and equalsIgnoreCase()**
 * **endsWith(), startsWith()**
 * **format()** - where you can use placeholders and then add items back into the String.

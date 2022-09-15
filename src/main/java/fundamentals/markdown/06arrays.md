@@ -21,8 +21,6 @@
     * **new** - keyword
     * **[6]** - This number inside of the brackets represents the length of the array, meaning how many values can this
       array store. Once the length is declared, it's fixed — meaning it cannot be lengthened to hold more values.
-    * ![arrays](arrays.png)
-    * Notice that the indices begin with 0; and index 0 represents the first element of the array.
 * Adding values to array
 
 ```java
@@ -42,6 +40,43 @@ lottoTicket[0]=24;
 * `int[] lottoTickets = {24,10,5,1,800,11}`
 * To **read** the value of an element, you simply use the array's name and the index of the element that you like.
     * `lottoTicket[2] //returns 5`\
+* Anonymous arrays
+  * We can declare array without name
+  * `new int [] {10,15,17}`
+* Other ways to initialize array
+  * `int[] array = {17,19,20,21}`
+  * `array = new int[] {17,19,20,21}`
+
+## Arrays - important notes
+
+* Arrays are data type that hold collection of values that have **same** type
+* Every value can be accessed by unique **index** (whole number representing position)
+* if **a** is array of values, then **a[i]** represents value on **[i]** index
+* Length of an arrays is calculated using **array.length**
+* Array's size cannot be changed once it is declared. Only its elements can be changed
+* Enhanced **for loop**
+  * Java has loop which is used only for arrays. It allows us to go through all array elements without using indexes
+  * syntax `for(variable : collection) statement`
+    * we read this as: For every element of array do some statement
+  * in enhanced for variable goes through all elements, not through all indexed
+
+```java
+  //for loop to print all elements
+    for(int i = 0; i < a.length; i++){
+        System.out.println(a[i]);
+        }
+    //enchanced for to print all elements
+    for(int element : a) System.out.println(element);
+    
+    // Arrays.toString() to print all elements
+
+    System.out.println(Arrays.toString(a));
+```
+
+## Array sort
+
+* Arrays class has multiple **sort** methods
+* Default **Arrays.sort()** method is QuickSort algorithm 
 
 ### One dimensional arrays
 

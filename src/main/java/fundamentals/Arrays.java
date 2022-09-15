@@ -16,12 +16,9 @@ public class Arrays {
 
     public static int[] generateNumbers(){
         int[] ticket = new int[length];
-
-
         for(int i=0; i< length; i++){
             ticket[i] = random.nextInt(maxTicketNumber) + 1;
         }
-
         return ticket;
     }
 
@@ -30,4 +27,5 @@ public class Arrays {
             System.out.print(ticket[i] + " | ");
         }
     }
+
 }

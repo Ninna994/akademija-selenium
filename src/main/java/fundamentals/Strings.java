@@ -3,11 +3,9 @@ package fundamentals;
 public class Strings {
     public static void main(String[] args) {
         String sentence = "I love testing and Quality Assurance";
-        // countWords(sentence);
+         countWords(sentence);
         // reverseString(sentence);
         // reverseStringBuilder(string);
-
-
     }
 
     public static void countWords(String text) {
