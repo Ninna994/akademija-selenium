@@ -1,5 +1,3 @@
-# Headings
-
 # Heading 1
 ## Heading 2
 ### Heading 3
@@ -7,24 +5,24 @@
 ##### Heading 5
 ###### Heading 6
 
-# Text Features
+## Text Features
 
 * **bold** text `**text**`
 * _italic_ text `_text_`
 * ~~Strikethrough~~ text `~~text~~` 
 
-# Links
+## Links
 
 * to display whole link use `<>` <https://google.com>
 * to display only link text use `[Link text](link)` [Link](https://google.com)
 * to display hover text on link use `after link in (https://google.com "Hover text")` [Hover me](https://google.com "Hovered text") 
 
-# Images
+## Images
 
 * To display images use `![altName](imageLinkInSameFolder)`
 ![gitslika](markdown.png)
 
-# Unordered list
+## Unordered list
 
 * Make unordered list using one of signs: `* + -`
 
@@ -37,7 +35,7 @@
   + item 3
     + item 4
 
-# Ordered list
+## Ordered list
 
 * Make ordered list using number `1.`
 
@@ -47,12 +45,12 @@
    1. item 3-1
 4. item 4
 
-# Horizontal rule
+## Horizontal rule
 
 * To make horizontal rule do `----`
 ---
 
-# Code blocks
+## Code blocks
 
 * inline code blocks ` `` `
 * multiline code blocks ` ```java ``` `
@@ -64,14 +62,14 @@
     //comment
 ```
 
-# Checkbox
+## Checkbox
 
 * To make checkbox use `[ ] name` or `[x] name`
 
 * [x] done
 * [ ] to do
 
-# Tables in Markdown
+## Tables in Markdown
 
 * To make table make header inside pipe symbols `|`
 * Beside every column and row name use `|`
@@ -83,3 +81,7 @@
 |:----------|:---------:|-----:|
 | Nikolina  |  Djekic   |   28 |
 | Test      |  Testing  |   20 |
+
+## Emojis
+
+* If you want to use emojis in GitHub Markdown editor you can find full list [here](https://gist.github.com/rxaviers/7360908)
