@@ -80,7 +80,33 @@
 * A finally clause can optionally be added below any catch clauses.
 * This clause is executed after try and after any catch clauses, even if the catch clauses don't execute.
   * The finally block says, "Hey, even if you finish everything in the try, even if no exceptions are thrown, I will execute whatever you place inside of me." So, this will execute no matter what — if exceptions are thrown, or if exceptions are not thrown — finally will execute.
-  * 
+
+
+## Escaping sequence
+
+* Escape sequence is special character sequence that represents another character. Escape sequences are
+used to represent characters that cannot be used directly in a string
+* to escape backspace -  `\b`
+* to escape newline - `\n`
+* to escape tab - `\t`
+* to escape carriage return - `\r`
+* to escape backslash `\\`
+* to escape double quote `\"`
+* to escape single quote `\'` 
+
+## Math methods
+
+* **Math.abs(a)** - absolute value of input
+* **Math.round(a)** - return the integer nearest to the input 
+* **Math.ceil(a)** - returns the smallest integer bigger than or equal to input value 
+* **Math.floor(a)** - returns the biggest integer tact is smaller than or equal to the input value 
+* **Math.exp(a)** - return the exponential of the input value 
+* **Math.max(a,b)** - returns the bigger between the two input values
+* **Math.min(a,b)** - returns the smaller between the two input values.
+* **Math.pow(a,b)** - returns the value of the first value raised to the power of the
+  second value.
+* **Math.sqrt(a)** - returns the square root of the input value.
+ 
 
 
 
