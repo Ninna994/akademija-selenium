@@ -70,6 +70,36 @@
   * `git fetch origin`
   * `git reset --hard origin/master`
 
+## .gitignore file
+
+* USed in projects to ignore files in git
+* `*` - used as a wildcard
+  * `*.exe` - all files with .exe extension
+* `name/` - ignores directories with the name
+  * `vendor/` - ignore vendor directory
+* `#` - comment
+* `[...]` - ignores values with any of the values
+  * `*.[abc]` - ignores files - file.a, file.b, file.c
+* What to put in .gitignore
+  * System specific files
+  * IDE files
+  * Security/API keys / secrets
+* To see all ignored files use `git status -ignored`
+
+## Tips and Tricks and Important notes
+
+* Always use commands in this order **COMMIT PULL PUSH**
+* You can check status of repository and see what is new by typing `git status`
+* **Stashing** changes - If we need to switch to new branch or on existing one because of emergency, and we do not want to commit unfinished changes we can stash them using
+  * `git stash` - hides changes that are local and let us checkout to other branch
+  * to revisit previous changes we run `git stash pop`
+  * if we do not need changes we can drop them `git stash drop`
+* Perform `git pull` frequently to avoid major conflicts and make merging easier
+* Use autocomplete options in terminal with `TAB` and use built-in Git commands inside IntelliJ
+* To delete local branch that no longer exist in remote server perform these
+  * on each fetch/pull `git config --global fetch.prune true`
+* Git blame is powerful tool that can be used in terminal, git bash or in IDE. Displays who made changes on the current line
+
 ## MISC
 
 * built in git GUI `gitk`
