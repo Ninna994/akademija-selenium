@@ -20,7 +20,7 @@
 ## Images
 
 * To display images use `![altName](imageLinkInSameFolder)`
-![gitslika](markdown.png)
+![gitslika](z-markdown.png)
 
 ## Unordered list
 

@@ -22,7 +22,7 @@
 1. **if** - It is used to decide whether a certain statement or block of statements will be executed or not
    1. if a certain condition is true then a block of statement is executed otherwise not
    2. Description - If a certain situation occurs, _do something_ and then go back to the main flow.
-   3. ![if](if.png)
+   3. ![if](z-if.png)
    4. syntax
 ```java
     if(condition){
@@ -34,7 +34,7 @@
    1. If certain situation occurs do something. Otherwise, do something else
    2. 2 paths
    3. If we have only one condition then {} can be ommited
-   4. ![if-else](if-else.png)
+   4. ![if-else](z-if-else.png)
    5. syntax
 ```java
    if(condition){
@@ -48,7 +48,7 @@
       1. If situation A occurs, do something
       2. Else if situation B occurs do something else
       3. Else if situation C occurs do somthing else
-   2. ![nested-if](nested-if.png)
+   2. ![nested-if](z-nested-if.png)
    3. syntax
 ```java
     if(condition1){
@@ -61,7 +61,7 @@
 4. **if-else-if** - The if statements are executed from the top down. 
    1. As soon as one of the conditions controlling the if is true, the statement associated with that if is executed, and the rest of the ladder is bypassed. 
    2. If none of the conditions is true, then the final else statement will be executed
-   3. ![if-else-if](if-else-if.png)
+   3. ![if-else-if](z-if-else-if.png)
    4. syntax
 ```java
     if (condition)
@@ -84,7 +84,7 @@
    7. **default** statement is optional
    8. **break** terminates statement sequence
       1. break is optional. If omitted, execution will continue on into the next case
-   9. ![switch](switch.png)
+   9. ![switch](z-switch.png)
    10. syntax
 ```java
     switch (expression)

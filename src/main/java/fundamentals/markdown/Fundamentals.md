@@ -154,7 +154,7 @@ When a method has the same local variable as a member, “this” keyword can be
 1. **Member Variables (Class Level Scope)** 
    1. Must be declared inside class, outside any function
    2. They can be directly accessed anywhere in class.
-![Class level scope](class-level-scope.png)
+![Class level scope](z-class-level-scope.png)
 2. **Local Variables (Method Level Scope)**
    1. Variables declared inside a method have method level scope and can’t be accessed outside the method. 
    2. Local variables don’t exist after method’s execution is over. 

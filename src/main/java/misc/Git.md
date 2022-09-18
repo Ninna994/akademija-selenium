@@ -19,7 +19,7 @@
     * **Index** - staging area
     * **HEAD** - points to last commit we made
 
-![workflow explained](git1.png)
+![workflow explained](z-git1.png)
 * `git add <filename>` - add changes to **Index** - propose changes
   * `git add *` - add all tracked
   * `git add .` - add all changes tracked 
@@ -35,7 +35,7 @@
   * Now the default branch is no longer **master** but **main** instead of it. This is to skip master-slave references
 * We use other branches for development and merge them back to the master branch upon completion
 
-![branches](branch1.png)
+![branches](z-branch1.png)
 * to create new branch we use `git checkout -b feature_x`
 * to switch back to master we use `git checkout master`
 * to delete branch `git branch -d feature_x`
