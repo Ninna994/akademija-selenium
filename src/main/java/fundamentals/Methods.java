@@ -1,20 +1,46 @@
 package fundamentals;
 
+
 import java.util.Scanner;
 
 public class Methods {
+
     public static void main(String[] args) {
-        /*
-        * Write a method that asks user for his name and then greets them by that name
-        * */
-        System.out.println("Enter your name");
         Scanner scanner = new Scanner(System.in);
-        String name = scanner.next();
-        greetMe(name);
+        greetMe("Nikolina");
+        System.out.println("Insert number to check if odd or even:");
+        int num = scanner.nextInt();
+        findEvenOdd(num);
+        int a = 10;
+        int b = 20;
+        int sum = add(a,b);
+        System.out.println("Sum is: " + sum);
+
+        // instance method
+        Methods methods = new Methods();
+        methods.printMe();
 
     }
 
     public static void greetMe(String name){
         System.out.println("Hello " + name);
+    }
+
+    public static  void findEvenOdd(int num) {
+        if (num % 2 == 0) {
+            System.out.println(num + "is even");
+        } else {
+            System.out.println(num + " is odd number");
+        }
+    }
+
+    public static int add(int a, int b) {
+        int sum;
+        sum = a+b;
+        return sum;
+    }
+
+    public void printMe() {
+        System.out.println("I am instance method. You had to create instance of object to call me");
     }
 }
