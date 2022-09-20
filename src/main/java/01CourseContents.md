@@ -9,7 +9,7 @@
 5. [x] [Loops](fundamentals/markdown/Loops.md)
 6. [x] [Strings](fundamentals/markdown/Strings.md)
 7. [x] [Arrays](fundamentals/markdown/Arrays.md)
-8. [ ] [Methods]()
+8. [ ] [Methods](fundamentals/markdown/Methods.md)
 9. [ ] [Math and Escaping sequence](fundamentals/markdown/Misc.md)
 12. [ ] Practical tasks for practise
 13. [ ] [OOP Concepts in Java](fundamentals/markdown/OOP.md)

@@ -20,6 +20,7 @@
 ## Images
 
 * To display images use `![altName](imageLinkInSameFolder)`
+* CRTL + U opens upload window and provides absolute path
 ![gitslika](z-markdown.png)
 
 ## Unordered list
@@ -58,7 +59,7 @@
 
 ```java
     int i = 0;
-    int[] a = {5,7,10};
+    int[] a = {5,7,10}; 
     //comment
 ```
 
