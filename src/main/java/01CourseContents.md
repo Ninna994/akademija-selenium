@@ -16,18 +16,25 @@
 12. [ ] [Static and This](fundamentals/markdown/StaticAndThis.md) 
 13. [ ] [Exceptions](fundamentals/markdown/Exceptions.md) 
 14. [ ] [Conversion in Java](fundamentals/markdown/Conversion.md) 
-15. [ ] [Java Collections](fundamentals/markdown/Collections.md) 
-16. [ ] [Streams](fundamentals/markdown/Misc.md) 
+15. [ ] [Java Collections](fundamentals/markdown/Collections.md)
 
 ## MISC
 
-1. [ ] [Installation process for this course]()
+1. [x] [Installation process for this course](installations/basicSetup.md)
 2. [x] [Markdown syntax](misc/Markdown.md)
 3. [x] [Git](misc/Git.md)
-3. [ ] [DevTools]()
-3. [ ] [Locators - basics]()
-3. [ ] [Locators - CSS selectors]()
-3. [ ] [Locators - XPATH]()
+4. [ ] [DevTools](misc/DevTools.md)
+5. [ ] [HTML - tags, attributes, links, images]()
+5. [ ] [HTML - forms]()
+5. [ ] [CSS - basics]()
+5. [ ] []()
+5. [ ] []()
+5. [ ] []()
+5. [ ] []()
+5. [ ] []()
+6. [ ] [Locators - basics]()
+7. [ ] [Locators - CSS selectors]()
+8. [ ] [Locators - XPATH]()
 
 ## Selenium
 
