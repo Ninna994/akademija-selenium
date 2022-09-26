@@ -126,3 +126,6 @@
 * An abstract class is not designed to be instantiated. It's designed to be extended, thus pushing the burden of implementation onto the subclass.
 * An abstract method has no body, only the signature of the method is defined, and it is not designed to be run as is. It's designed to be overridden by a subclass.
 * [Link](https://testautomationu.applitools.com/java-programming-course/chapter11a.html)
+* 2 ways to achieve abstraction:
+  * Abstract class 0-100%
+  * Interface - 100%

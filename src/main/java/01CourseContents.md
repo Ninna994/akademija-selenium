@@ -9,15 +9,15 @@
 5. [x] [Loops](fundamentals/markdown/Loops.md)
 6. [x] [Strings](fundamentals/markdown/Strings.md)
 7. [x] [Arrays](fundamentals/markdown/Arrays.md)
-8. [ ] [Methods](fundamentals/markdown/Methods.md)
+8. [x] Practical tasks for practise
 9. [x] [Math and Escaping sequence](fundamentals/markdown/Misc.md)
-10. [x] Practical tasks for practise
+10. [ ] [Methods](fundamentals/markdown/Methods.md)
 11. [ ] [OOP Concepts in Java](fundamentals/markdown/OOP.md)
-15. [ ] [Static and This]() 
-19. [ ] [Abstract class and Interface]() 
-20. [ ] [Exceptions]() 
-21. [ ] [Conversion in Java]() 
-22. [ ] [Java Collections]() 
+12. [ ] [Static and This](fundamentals/markdown/StaticAndThis.md) 
+13. [ ] [Exceptions](fundamentals/markdown/Exceptions.md) 
+14. [ ] [Conversion in Java](fundamentals/markdown/Conversion.md) 
+15. [ ] [Java Collections](fundamentals/markdown/Collections.md) 
+16. [ ] [Streams](fundamentals/markdown/Misc.md) 
 
 ## MISC
 

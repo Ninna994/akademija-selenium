@@ -23,19 +23,6 @@ used to represent characters that cannot be used directly in a string
   second value.
 * **Math.sqrt(a)** - returns the square root of the input value.
 
-## Interfaces
-
-* An interface is similar to an abstract class, except that in an abstract class there can be some methods that are implemented.
-* However, an interface consists of all abstract methods. Because all the methods of an interface are abstract by nature, there's no need to declare the methods as abstract. It's just a given.
-* Interfaces are **implemented**, not extended as classes
-* Any class that implements an interface must implement all of its methods, or it must declare itself as an abstract class.
-* Java 8 introduced a new option, where I can declare methods as default within interfaces.
-* If you declare the method as default you can provide a default implementation for this method.
-* Interfaces cannot be instantiated and they're all public.
-* While a class can only extend one class, it can implement multiple interfaces.
-  * To implement multiple interfaces, the class header must specify a comma delimited list of names of all of the interfaces that it would like to implement
-  * If a class declares that it will implement multiple interfaces, then it must provide the methods specified by all of those interfaces.
-
 ## Collections
 
 * A Collection is an object that holds references to other objects. These are data structures and the objects within the collection are known as elements.
@@ -54,15 +41,12 @@ used to represent characters that cannot be used directly in a string
     * Methods for maps
       ![queue methods](z-mapmethods.png)
 
-## Exceptions
 
-* An exception is an unexpected event that occurs at runtime due to an error. Exceptions disrupt the normal flow of a program.
-* You can handle exceptions within your code so that the program doesn't crash and so that you can provide a meaningful message in case of an error.
-* All exceptions inherit from the Exception class.
-* There can be multiple catch clauses to handle different types of exceptions.
-* If the multiple catch clauses contain related exceptions, the subclass’ catch clause must appear first.
-* Multiple exceptions - The way we do that is by using the pipe symbol: |.
-* A `finally` clause can optionally be added below any catch clauses.
-* This clause is executed after try and after any catch clauses, even if the catch clauses don't execute.
-  * The `finally` block says, "Hey, even if you finish everything in the try, even if no exceptions are thrown, I will execute whatever you place inside of me." So, this will execute no matter what — if exceptions are thrown, or if exceptions are not thrown — finally will execute.
-  
+## Stream Filter and Streams - Java 8
+
+https://www.javatpoint.com/java-8-stream-filter
+https://www.javatpoint.com/java-8-stream
+
+## Enums
+
+https://www.javatpoint.com/enum-in-java
