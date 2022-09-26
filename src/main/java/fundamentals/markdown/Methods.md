@@ -37,9 +37,25 @@
 
 ## Static methods
 
-* Method that has **static** keyword is static method. Method that belongs to class rather than instance of class is static method.
+* Method that has **static** keyword is static method. 
+* Method that belongs to class rather than instance of class is static method.
 * We can call them without creating an object
 * It is used to create an instance method. It is invoked by using the class name. The best example of a static method is the main() method.
+  * Example - PI number
+* Static methods do not have parameters and do not have `this` parameter
+
+## Private methods
+
+* Helper methods should not be public by rule and they should be accessible only by classes and methods they are part of
+* To implement private method we use `private`
+  * When method is private we are sure that it will only be used by current class
+
+## Final fields of object
+
+* We can define field of object as `final` when we need it to be initialized when object is created
+* final field cannot be changed after initialization
+* example - we have `private String name` that only has `getter` and cannot be changed
+  * this means that this name could also be `final private String name`
 
 ## Instance methods
 
@@ -90,6 +106,24 @@ Header items:
   * comma-delimited list of inputs
 * **signature** - name of the method and method's parameter list
   * must be unique within a class
+
+## Overloading
+
+* If a class has multiple methods having same name but different in parameters
+* Two ways to achieve overloading
+  * by changing number of arguments
+  * by changing data type
+
+## Overriding
+
+* If subclass(child class) has the same method name as declared in the parent class
+* Method overriding is used to provide the specific implementation of a method which is already provided by its superclass.
+* Method overriding is used for runtime polymorphism
+* Rules:
+  * The method must have the same name as in the parent class
+  * The method must have the same parameter as in the parent class.
+  * There must be an IS-A relationship (inheritance).
+* Examples in Classes
 
 ## Notes
 

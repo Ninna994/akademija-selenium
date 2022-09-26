@@ -109,4 +109,3 @@
 * show file on another branch directly in terminal `git show main:README.md`
 * To see most common commands use `git help` or `git help <command>`
 * [Repository full of tips](https://github.com/git-tips/tips)
-* 

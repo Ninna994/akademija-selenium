@@ -20,6 +20,10 @@ public class Methods {
         Methods methods = new Methods();
         methods.printMe();
 
+        // overloading
+        System.out.println(addition(5,7));
+        System.out.println(addition(5,7,10));
+        System.out.println(addition(5,7,10,20));
     }
 
     public static void greetMe(String name){
@@ -42,5 +46,22 @@ public class Methods {
 
     public void printMe() {
         System.out.println("I am instance method. You had to create instance of object to call me");
+    }
+
+    public static int addition(int a, int b) {
+        int sum;
+        sum = a+b;
+        return sum;
+    }
+
+    public static int addition(int a, int b, int c) {
+        int sum;
+        sum = a+b+c;
+        return sum;
+    }
+    public static int addition(int a, int b, int c, int d) {
+        int sum;
+        sum = a+b+c+d;
+        return sum;
     }
 }
