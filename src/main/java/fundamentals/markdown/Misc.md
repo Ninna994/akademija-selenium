@@ -44,9 +44,9 @@ used to represent characters that cannot be used directly in a string
 
 ## Stream Filter and Streams - Java 8
 
-https://www.javatpoint.com/java-8-stream-filter
-https://www.javatpoint.com/java-8-stream
+<https://www.javatpoint.com/java-8-stream-filter>
+<https://www.javatpoint.com/java-8-stream>
 
 ## Enums
 
-https://www.javatpoint.com/enum-in-java
+<https://www.javatpoint.com/enum-in-java>
