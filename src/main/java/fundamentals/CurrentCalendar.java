@@ -27,6 +27,7 @@ public class CurrentCalendar {
             d.add(Calendar.DAY_OF_MONTH, -1);
             weekday = d.get(Calendar.DAY_OF_WEEK);
         }
+
         // header print
         String[] weekdayNames = new DateFormatSymbols().getShortWeekdays();
         do {
@@ -41,6 +42,7 @@ public class CurrentCalendar {
         }
 
         d.set(Calendar.DAY_OF_MONTH, 1);
+
         do {
             //print days
             int day = d.get(Calendar.DAY_OF_MONTH);

@@ -11,7 +11,7 @@
 7. [x] [Arrays](fundamentals/markdown/Arrays.md)
 8. [x] Practical tasks for practise
 9. [x] [Math and Escaping sequence](fundamentals/markdown/Misc.md)
-10. [ ] [Methods](fundamentals/markdown/Methods.md)
+10. [x] [Methods](fundamentals/markdown/Methods.md)
 11. [ ] [OOP Concepts in Java](fundamentals/markdown/OOP.md)
 12. [ ] [Static and This](fundamentals/markdown/StaticAndThis.md) 
 13. [ ] [Exceptions](fundamentals/markdown/Exceptions.md) 

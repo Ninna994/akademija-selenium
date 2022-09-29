@@ -18,7 +18,7 @@
   * `protected` - accessible within the package or within subclasses in different packages
   * `default` - when no access is specified - same package access
 * **Return type** - data type that method returns
-  * primitive data type or object, collection etc.
+  * primitive data type or object, collection etc. 
   * **void** if method doesn't return anything
 * **Method name** - a unique name corresponding to the functionality. Method is invoked by its name.
 * **Parameter list** - list of parameters separated by comma inside `()`. contains data type and data name

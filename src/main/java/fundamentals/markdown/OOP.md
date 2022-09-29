@@ -30,7 +30,7 @@
 * Most common relations between classes are
   * `Depends on` - **it uses** - Order uses Account
   * `Has, agregation` - **it has, it consists of**
-  * `interits` - **it inherits - it is**
+  * `inherits` - **it inherits - it is**
 
 ## Constructors
 
