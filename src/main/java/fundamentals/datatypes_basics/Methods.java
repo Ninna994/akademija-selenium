@@ -1,4 +1,4 @@
-package fundamentals.datatypes_basics;
+package fundamentals_java.datatypes_basics;
 
 
 import java.util.Scanner;

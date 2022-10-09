@@ -1,4 +1,4 @@
-package fundamentals.loops_decisions;
+package fundamentals_java.loops_decisions;
 
 import java.util.Scanner;
 

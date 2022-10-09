@@ -1,4 +1,4 @@
-package exam;
+package fundamentals_java.exam;
 
 public class Circle extends Rectangle{
 

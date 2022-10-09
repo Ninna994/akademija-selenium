@@ -1,4 +1,4 @@
-package fundamentals.interfaces;
+package fundamentals_java.interfaces;
 
 public class AustralianTraffic implements CentralTraffic, ContinentalTraffic{
     public static void main(String[] args) {

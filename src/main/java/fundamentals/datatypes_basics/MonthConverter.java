@@ -1,6 +1,4 @@
-package fundamentals.datatypes_basics;
-
-import fundamentals.datatypes_basics.Month;
+package fundamentals_java.datatypes_basics;
 
 public class MonthConverter {
     public static void main(String[] args) {

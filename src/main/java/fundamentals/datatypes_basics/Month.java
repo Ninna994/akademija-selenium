@@ -1,4 +1,4 @@
-package fundamentals.datatypes_basics;
+package fundamentals_java.datatypes_basics;
 
 public class Month {
     public static String getMonth(int month){

@@ -1,4 +1,4 @@
-package fundamentals.datatypes_basics;
+package fundamentals_java.datatypes_basics;
 
 public class Strings {
     public static void main(String[] args) {

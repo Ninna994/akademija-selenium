@@ -1,4 +1,4 @@
-package fundamentals.classes_objects;
+package fundamentals_java.classes_objects;
 
 import java.text.DateFormatSymbols;
 import java.util.Calendar;

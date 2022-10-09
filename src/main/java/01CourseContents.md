@@ -12,11 +12,11 @@
 8. [x] Practical tasks for practise
 9. [x] [Math and Escaping sequence](fundamentals/markdown/Misc.md)
 10. [x] [Methods](fundamentals/markdown/Methods.md)
-11. [ ] [OOP Concepts in Java](fundamentals/markdown/OOP.md)
-12. [ ] [Static and This](fundamentals/markdown/StaticAndThis.md) 
-13. [ ] [Exceptions](fundamentals/markdown/Exceptions.md) 
-14. [ ] [Conversion in Java](fundamentals/markdown/Conversion.md) 
-15. [ ] [Java Collections](fundamentals/markdown/Collections.md)
+11. [x] [OOP Concepts in Java](fundamentals/markdown/OOP.md)
+12. [ ] [Interfaces](fundamentals/markdown/OOP2.md)
+14. [ ] [Exceptions](fundamentals/markdown/Exceptions.md) 
+15. [ ] [Conversion in Java](fundamentals/markdown/Conversion.md) 
+16. [ ] [Java Collections](fundamentals/markdown/Collections.md)
 
 ## MISC
 
