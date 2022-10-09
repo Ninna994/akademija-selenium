@@ -27,7 +27,7 @@ public class ExceptionExample {
 
     static void arrayException() {
         try {
-            int a[]=new int[5];
+            int[] a=new int[5];
             a[10]=50;
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println(e);

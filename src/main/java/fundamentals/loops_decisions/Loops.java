@@ -10,7 +10,7 @@ public class Loops {
         Do not allow for overtime.
          */
         System.out.println("Excercise 1 - Gross calculator");
-        //grossCalculator();
+        grossCalculator();
 
         /*
         Write a program that allows a user to enter two numbers and then sum it up
@@ -18,19 +18,19 @@ public class Loops {
          */
 
         System.out.println("Excercise  - Add numbers");
-        //addNumbers();
+        addNumbers();
 
         /*
         Write a cashioer program that will scan a given number of items and tally the cost
          */
         System.out.println("Excercise  - Cashier Program");
-        //cashierProgram();
+        cashierProgram();
 
         /*
         Search a String to determine if it contains the letter 'A'
          */
         System.out.println("Excercise  - String Scan");
-        //stringScan();
+        stringScan();
 
         /*
         Find the average test scores for each student in the class. There are 24 students and 4 tests

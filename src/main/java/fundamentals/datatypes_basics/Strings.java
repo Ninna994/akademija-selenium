@@ -4,8 +4,8 @@ public class Strings {
     public static void main(String[] args) {
         String sentence = "I love testing and Quality Assurance";
          countWords(sentence);
-        // reverseString(sentence);
-        // reverseStringBuilder(string);
+         reverseString(sentence);
+         reverseStringBuilder();
     }
 
     public static void countWords(String text) {
@@ -26,7 +26,7 @@ public class Strings {
         }
     }
 
-    public static  void reverseStringBuilder(String string){
+    public static  void reverseStringBuilder(){
         String toReverse = "Nikolina";
         StringBuilder sb = new StringBuilder();
         sb.append(toReverse);

@@ -15,11 +15,6 @@ public class ArrayListExample {
         for (String s : list) { //same as commented while
             System.out.println(s); //print element and move to next
         }
-        /*
-        while (i.hasNext()) { //same as enhanced for
-            System.out.println(i.next()); //print element and move to next
-        }
-         */
 
         list.add("Change me");
         System.out.println("Element that needs to be changed: " + list.get(4));

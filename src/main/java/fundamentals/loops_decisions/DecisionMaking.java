@@ -9,7 +9,7 @@ public class DecisionMaking {
          */
 
         System.out.println("### Exercise 1 - Salary Calculator.");
-        // salaryCalculator();
+         salaryCalculator();
 
         /*
         All salespeople are expected to make at least 10sales each week.
@@ -17,19 +17,19 @@ public class DecisionMaking {
          For those who don't they are informed of how many sales they were short
          */
         System.out.println("### Exercise 2 - Salary Expectations.");
-        // salesCalculator();
+         salesCalculator();
 
         /*
         To qualify for a loan, a person must make at least 30 000 abd have been working at their curent job for at least 2years
          */
         System.out.println("### Exercise 3 - Loan Calculator.");
-        // loanCalculator();
+         loanCalculator();
 
         /*
         Display a letter grade for a student based on their test score
          */
         System.out.println("### Exercise 4 - Grade calculator.");
-        //testResults();
+        testResults();
 
         /*
         Have a user enter their grade and using a switch statement print out a message letting them know how they did

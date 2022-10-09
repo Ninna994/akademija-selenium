@@ -4,8 +4,8 @@ import java.util.Random;
 
 public class Arrays {
 
-    private static int length = 6; //constant
-    private static final int maxTicketNumber = 69;
+    private static final int LENGTH = 6; //constant
+    private static final int MAX_TICKET_NUMBER = 69;
     static Random random = new Random();
 
     public static void main(String[] args) {
@@ -15,15 +15,15 @@ public class Arrays {
     }
 
     public static int[] generateNumbers(){
-        int[] ticket = new int[length];
-        for(int i=0; i< length; i++){
-            ticket[i] = random.nextInt(maxTicketNumber) + 1;
+        int[] ticket = new int[LENGTH];
+        for(int i = 0; i< LENGTH; i++){
+            ticket[i] = random.nextInt(MAX_TICKET_NUMBER) + 1;
         }
         return ticket;
     }
 
     public static void printTicket(int[] ticket){
-        for(int i=0; i<length; i++){
+        for(int i = 0; i< LENGTH; i++){
             System.out.print(ticket[i] + " | ");
         }
     }

@@ -7,23 +7,23 @@ public class Practise1 {
 
     public static void main(String[] args) {
         System.out.println("******\nPractise task 1\n******");
-        // calculationPrint();
+         calculationPrint();
         System.out.println("******\nPractise task 2\n******");
-        // escapeSequences();
+         escapeSequences();
         System.out.println("******\nPractise task 3\n******");
-        // mathTest();
+         mathTest();
         System.out.println("******\nPractise task 4\n******");
-        //absoluteValue();
+        absoluteValue();
         System.out.println("******\nPractise task 5\n******");
-        //  printOrderedNumbers();
+        printOrderedNumbers();
         System.out.println("******\nPractise task 6\n******");
-        //printBiggerNumberOfTwo();
+        printBiggerNumberOfTwo();
         System.out.println("******\nPractise task 7\n******");
-        //solveFunction();
+        solveFunction();
         System.out.println("******\nPractise task 8\n******");
-        //printBiggerNumberOfTwo2();
+        printBiggerNumberOfTwo2();
         System.out.println("******\nPractise task 9\n******");
-        //printStarNumberOfTimes();
+        printStarNumberOfTimes();
         System.out.println("******\nPractise task 9\n******");
         printMessageIfLength();
     }

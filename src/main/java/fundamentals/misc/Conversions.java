@@ -9,7 +9,7 @@ public class Conversions {
     public static void main(String[] args) throws ParseException {
         stringToIntParseInt();
         stringToIntValueOf();
-     //   stringToIntErrorFormat();
+        stringToIntErrorFormat();
         intToString();
         intToStringValueOf();
         intToStringFormat();
@@ -44,16 +44,12 @@ public class Conversions {
         }
     }
 
-    /* intToString();
-        intToStringValueOf();*/
     static void intToString() {
         int i = 200;
-        String s = Integer.toString(i);
     }
 
     static void intToStringValueOf() {
         int i = 200;
-        String s = String.valueOf(i);
     }
 
     static void  intToStringFormat() {

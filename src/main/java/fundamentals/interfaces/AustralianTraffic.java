@@ -21,7 +21,7 @@ public class AustralianTraffic implements CentralTraffic, ContinentalTraffic{
 
     @Override
     public void greenGo() {
-        System.out.println("Green go Australia implementation and number from interface is: " + a);
+        System.out.println("Green go Australia implementation and number from interface is: " + A);
     }
 
     @Override

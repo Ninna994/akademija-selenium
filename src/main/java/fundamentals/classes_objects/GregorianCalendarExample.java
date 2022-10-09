@@ -38,7 +38,7 @@ public class GregorianCalendarExample {
         deadline.set(Calendar.DAY_OF_MONTH, 15);
         System.out.println("Initial deadline is set to be: " + deadline.getTime());
         //or shorter:
-        // deadline.set(2001, Calendar.APRIL, 15);
+         deadline.set(2001, Calendar.APRIL, 15);
         // add  days to deadline
         deadline.add(Calendar.DATE, 5);
         System.out.println("New deadline after 5 days extension is: " + deadline.getTime());

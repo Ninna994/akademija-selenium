@@ -7,11 +7,11 @@ public class Practise2 {
 
         public static void main(String[] args){
             System.out.println("******\nPractise task 1\n******");
-            //promptUntilQPressed();
+            promptUntilQPressed();
             System.out.println("******\nPractise task 2\n******");
             factoriel();
-            System.out.println("******\nPractise task 1\n******");
-            System.out.println("******\nPractise task 1\n******");
+            System.out.println("******\nPractise task 3\n******");
+            System.out.println("******\nPractise task 4\n******");
             scanner.close();
         }
 
