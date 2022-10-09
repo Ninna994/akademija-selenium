@@ -1,4 +1,4 @@
-package fundamentals_java.interfaces;
+package fundamentals.interfaces;
 
 public interface CentralTraffic {
     public void greenGo();

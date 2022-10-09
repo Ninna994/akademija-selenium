@@ -1,4 +1,4 @@
-package fundamentals_java.misc;
+package fundamentals.misc;
 
 public class ExceptionExample {
     public static void main(String[] args) {

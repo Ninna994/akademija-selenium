@@ -1,4 +1,4 @@
-package fundamentals_java.classes_objects;
+package fundamentals.classes_objects;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;

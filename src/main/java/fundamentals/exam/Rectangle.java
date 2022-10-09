@@ -1,4 +1,4 @@
-package fundamentals_java.exam;
+package fundamentals.exam;
 
 public class Rectangle {
     /*

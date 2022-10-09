@@ -1,4 +1,4 @@
-package fundamentals_java.exam;
+package fundamentals.exam;
 
 public class TestStudent {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package fundamentals_java.datatypes_basics; //pakage name
+package fundamentals.datatypes_basics; //pakage name
 
 public class HelloWorld {
     /**

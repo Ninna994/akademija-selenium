@@ -1,4 +1,4 @@
-package fundamentals_java.datatypes_basics;
+package fundamentals.datatypes_basics;
 
 public class DataTypes {
     boolean trueValue = true;

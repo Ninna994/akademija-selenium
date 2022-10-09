@@ -1,4 +1,4 @@
-package fundamentals_java.misc;
+package fundamentals.misc;
 
 import java.sql.Timestamp;
 import java.text.ParseException;
