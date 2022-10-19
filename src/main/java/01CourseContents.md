@@ -3,7 +3,7 @@
 ## Java 
 
 1. [x] [Fundamentals](fundamentals/markdown/Fundamentals.md)
-2. [x] [Data types](fundamentals/markdown/DataTypes.md)
+2. [x] [Data types](fundamentals/0markdown/DataTypes.md)
 3. [x] [Operators](fundamentals/markdown/Operators.md)
 4. [x] [Decision-making](fundamentals/markdown/DecisionMaking.md)
 5. [x] [Loops](fundamentals/markdown/Loops.md)
@@ -14,26 +14,26 @@
 10. [x] [Methods](fundamentals/markdown/Methods.md)
 11. [x] [OOP Concepts in Java](fundamentals/markdown/OOP.md)
 12. [x] [Interfaces](fundamentals/markdown/OOP2.md)
-14. [ ] [Exceptions](fundamentals/markdown/Exceptions.md) 
-15. [x] [Conversion in Java](fundamentals/markdown/Conversion.md) 
-16. [ ] [Java Collections](fundamentals/markdown/Collections.md)
+14. [x] [Exceptions](fundamentals/markdown/Exceptions.md)
+15. [x] [Conversion in Java](fundamentals/markdown/Conversion.md)
+16. [x] [Java Collections](fundamentals/markdown/Collections.md)
 
 ## MISC
 
 1. [x] [Installation process for this course](installations/basicSetup.md)
 2. [x] [Markdown syntax](misc/Markdown.md)
 3. [x] [Git](misc/Git.md)
-4. [ ] [DevTools](misc/DevTools.md)
-5. [ ] [HTML - tags, attributes, links, images](misc/Html.md)
-5. [ ] [CSS - basics]()
-5. [ ] []()
-5. [ ] []()
-5. [ ] []()
-5. [ ] []()
-5. [ ] []()
-6. [ ] [Locators - basics]()
-7. [ ] [Locators - CSS selectors]()
-8. [ ] [Locators - XPATH]()
+4. [x] [DevTools](misc/DevTools.md)
+5. [x] [HTML - tags, attributes, links, images](misc/Html.md)
+6. [x] [CSS - basics](locators/markdown/cssSelectors.md)
+7. [x] [XPath](locators/markdown/xpath.md)
+8. [ ] []()
+9. [ ] []()
+10. [ ] []()
+11. [ ] []()
+12. [ ] [Locators - basics]()
+13. [ ] [Locators - CSS selectors]()
+14. [ ] [Locators - XPATH]()
 
 ## Selenium
 
