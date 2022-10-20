@@ -298,9 +298,3 @@
 
 * [XPath diner](https://topswagcode.com/xpath/)
 * [XPath practice page](https://selectorshub.com/xpath-practice-page/)
-
-
-
-
-
-<https://selectorshub.com/xpath-practice-page/>
