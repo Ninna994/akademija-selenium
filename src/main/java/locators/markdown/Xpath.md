@@ -277,18 +277,7 @@
 * Syntax
   * `//<xpathOfKnownElement>/preceding-sibling::<elementName>`
   * `//<xpathOfKnownElement>/preceding-sibling::*`
-
-
-## Locating Several XPaths
-
-
-
-
-
-
-## Validating XPath Syntax
-
-
+  
 ## Notes Selenium XPath
 
 * Selenium will pick first element in the path of there are multiple candidates for a given XPath if we use `findElement`
@@ -298,3 +287,4 @@
 
 * [XPath diner](https://topswagcode.com/xpath/)
 * [XPath practice page](https://selectorshub.com/xpath-practice-page/)
+* [CSSify - XPath to CSS](http://cssify.appspot.com/)
