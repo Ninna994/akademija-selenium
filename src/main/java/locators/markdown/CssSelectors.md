@@ -77,3 +77,10 @@ Logical not function
 //a[not(contains(@class, 'header'))]
 
 ```
+
+
+## Websites for practice
+
+* [CSS Diner](https://flukeout.github.io/)
+* [CSS Selector Game Diagram](https://frontend30.com/css-selectors-cheatsheet/)
+* [CSS Selectors Cheatsheet](https://frontend30.com/css-selectors-cheatsheet/)

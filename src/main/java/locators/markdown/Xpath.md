@@ -294,6 +294,11 @@
 * Selenium will pick first element in the path of there are multiple candidates for a given XPath if we use `findElement`
 * If we use `findElements` all the candidate elements can be assigned to a List
 
+## Websites for practice
+
+* [XPath diner](https://topswagcode.com/xpath/)
+* [XPath practice page](https://selectorshub.com/xpath-practice-page/)
+
 
 
 
