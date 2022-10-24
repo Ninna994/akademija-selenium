@@ -42,3 +42,22 @@
   * `getAttribute(String): String` - This method gets the value of the given attribute of the element
   * `getSize(): Dimension` - This method fetch the width and height of the rendered element.
   * `getLocation(): Point` - This method locate the location of the element on the page
+
+# Finding elements in Selenium
+
+* `findElement(By by): WebElement` - returns one element
+* `findElements(By by): List of Web Elements` - returns list of web elements
+* In order to interact with elements we need to first find or locate them on a web page
+* Way we are going to find WebElement is also called **locator strategy**
+* Different locator strategies
+  * `id`
+  * `name`
+  * `className`
+  * `tagName`
+  * `cssSelector`
+  * `xpath`
+  * `linkText`
+  * `partialLinkText`
+* In case there is no matching element found, the findElement command throws NoSuchElementException.
+* Syntax for multiple elements
+  * `List<WebElement> elementName = driver.findElement(By.LocatorStrategy("locatorValue"))`

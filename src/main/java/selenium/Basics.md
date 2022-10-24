@@ -26,3 +26,17 @@
 * Selenium Remote Control - deprecates
 * Selenium WebDriver - most important part of Selenium
 * Selenium Grid
+
+
+## Practice pages
+
+1. [DemoQA](https://demoqa.com/)
+2. [Practice Page Automation Rahul](https://rahulshettyacademy.com/AutomationPractice/)
+3. [WebDriver University](https://webdriveruniversity.com)
+4. [The internet](http://the-internet.herokuapp.com/)
+5. [SauceDemo](https://www.saucedemo.com/)
+6. [Ultimate QA](https://ultimateqa.com/automation)
+7. [ACME Demo Banking](https://demo.applitools.com/)
+8. [eCommerce Clothing](http://automationpractice.com/index.php)
+9. [GreenCart Rahul](https://rahulshettyacademy.com/seleniumPractise/#/)
+10. [Proto Commerce Automation Rahul](https://rahulshettyacademy.com/angularpractice/)
