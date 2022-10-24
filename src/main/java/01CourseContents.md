@@ -27,13 +27,6 @@
 5. [x] [HTML - tags, attributes, links, images](misc/Html.md)
 6. [x] [CSS - basics](locators/markdown/CssSelectors.md)
 7. [x] [XPath](locators/markdown/Xpath.md)
-8. [ ] []()
-9. [ ] []()
-10. [ ] []()
-11. [ ] []()
-12. [ ] [Locators - basics]()
-13. [ ] [Locators - CSS selectors]()
-14. [ ] [Locators - XPATH]()
 
 ## Selenium
 
