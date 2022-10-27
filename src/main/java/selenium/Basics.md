@@ -23,7 +23,7 @@
 ## Selenium Tool Suite
 
 * Selenium Integrated Development Environment - IDE
-* Selenium Remote Control - deprecates
+* Selenium Remote Control - deprecated
 * Selenium WebDriver - most important part of Selenium
 * Selenium Grid
 
