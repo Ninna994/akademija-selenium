@@ -30,7 +30,7 @@
 
 ## Selenium
 
-1. [ ] [Installation Selenium]()
+1. [x] [Installation Selenium]()
 2. [ ] [Selenium intro and Webdriver]()
 3. [ ] [Drivers - install, initialize, teardown]()
 4. [ ] [Window manipulation]()
