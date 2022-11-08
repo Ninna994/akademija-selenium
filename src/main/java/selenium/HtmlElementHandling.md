@@ -44,7 +44,7 @@
 * Selenium WebDriver provides a class that handles single-select and multi-select native dropdowns
 * `<select></select>`
 * `Select` class
-* `Select select = nee Select(WebElement webelement)`
+* `Select select = new Select(WebElement webelement)`
 * Select methods
   * `selectByIndex(int)`
   * `selectByValue(int)`
