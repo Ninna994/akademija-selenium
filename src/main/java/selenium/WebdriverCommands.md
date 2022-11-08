@@ -61,3 +61,6 @@
 * In case there is no matching element found, the findElement command throws NoSuchElementException.
 * Syntax for multiple elements
   * `List<WebElement> elementName = driver.findElement(By.LocatorStrategy("locatorValue"))`
+
+## manage() in Selenium
+

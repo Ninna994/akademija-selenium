@@ -1,20 +1,16 @@
 package webdriveruniversity;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class ContactUs {
+public class ContactUs extends WUBase{
     @Test
     public void testContactUsFormBasic() {
         // Populate all fields, click reset, than populate them once again and click submit
-
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\inani\\Desktop\\akademija-selenium\\drivers\\chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
 
         driver.get("https://webdriveruniversity.com/Contact-Us/contactus.html");
 
@@ -35,14 +31,10 @@ public class ContactUs {
         theEmailField.sendKeys("ina2@mailinator.com");
         theCommentsTextarea.sendKeys("Ovo je neki text duzi malo test 2");
         theSubmitButton.click();
-        driver.quit();
     }
 
     @Test
     public void testFindAllInputs() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\inani\\Desktop\\akademija-selenium\\drivers\\chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
-
         driver.get("https://webdriveruniversity.com/Contact-Us/contactus.html");
 
         List<WebElement> inputs = driver.findElements(By.tagName("input"));
@@ -53,4 +45,12 @@ public class ContactUs {
             System.out.println("There are no inputs on page");
         }
     }
+
+    @Test
+    public void testAssertMessageSent() {
+        testContactUsFormBasic();
+        Assert.assertEquals(driver.findElement(By.tagName("h1")).getText(), "Thank You for your Message!", "Contact us message not received");
+    }
+
+
 }

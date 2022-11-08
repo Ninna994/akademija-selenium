@@ -63,4 +63,7 @@
 
 ## Dynamic Tables in Selenium
 
-* 
+* In order to handle dynamic content on any page we can use parametrized xpath notation
+* Examples
+  * `.//*[@id='content']/table/tbody/tr[" + sRow + "]/td[" + sCol + "]`
+  * More examples can be found [here](../../../test/java/workshops/DynamicTables.java)

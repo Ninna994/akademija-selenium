@@ -7,7 +7,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class PracticeTask1 {
     public static void main(String[] args) throws InterruptedException {
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\inani\\Desktop\\akademija-selenium\\drivers\\chromedriver.exe");
+        /*
+        POPULATE FORM WITH VALID DATA
+        DISCLAIMER - DRIVER NEEDS TO BE STARTED WITH ADBLOCKER BECAUSE OD AD DISPLAYED AT THE BOTTOM PART OF WINDOW
+         */
         WebDriver driver = new ChromeDriver();
         driver.get("https://demoqa.com/automation-practice-form");
         /*

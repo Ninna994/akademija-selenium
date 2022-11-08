@@ -1,5 +1,7 @@
 # Drivers - init
 
+* **_!!!!! IMPORTANT NOTE from 11.2022.!!!!!_** 
+  * After Selenium launched update 4.6.0 it is no longer mandatory step to write `System.setProperty('webdriver.x.driver', 'PATH'')` because it comes with WebDriver Manager that handles this for us. Reference [link](https://www.selenium.dev/blog/2022/introducing-selenium-manager/)
 * All drivers should be inside **drivers** folder in root. _Drivers should not be pushed to git and should be updated regularly._
 
 ## Chrome driver

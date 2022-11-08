@@ -1,26 +1,25 @@
 package workshops;
 
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
 public class DynamicTables {
     public static void main(String[] args) {
+        WebDriver driver = new ChromeDriver();
+        driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 
-        /*
-        1.
+        String row = "5";
+        String column = "3";
 
-    Launch new Browser
-    Open URL “http://toolsqa.com/automation-practice-table/”
-    Get the value from cell 'Dubai' and print it on the console
-    Click on the link 'Detail' of the first row and last column
+        String dynamicRowText = driver.findElement(By.xpath("//table[@name='courses']//tbody/tr[" + row  + "]")).getText();
+        String dynamicColumnText = driver.findElement(By.xpath("//table[@name='courses']//tbody/tr[" + row + "]/td["+ column +"]")).getText();
 
-         */
+        System.out.println(dynamicRowText);
+        System.out.println("Text in " + column + ". column of " + row + ". row is: " + dynamicColumnText);
 
-        /*
-        2.
-
-    Launch new Browser
-    Open URL “http://toolsqa.com/automation-practice-table/”
-    Get the value from cell 'Dubai' with using dynamic xpath
-    Print all the column values of row 'Clock Tower Hotel'
-
-         */
+        driver.quit();
     }
 }
