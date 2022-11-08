@@ -40,4 +40,27 @@
 
 ## Dropdowns in Selenium
 
+* There are currently various types of dropdowns - single-select, multi-select, dynamic etc. 
+* Selenium WebDriver provides a class that handles single-select and multi-select native dropdowns
+* `<select></select>`
+* `Select` class
+* `Select select = nee Select(WebElement webelement)`
+* Select methods
+  * `selectByIndex(int)`
+  * `selectByValue(int)`
+  * `selectByVisibleText(String)`
+* Deselect methods
+  * `deselectAll()`
+  * `deselectByIndex(int)`
+  * `deselectByValue(int)`
+  * `deselectByVisibleText(String)`
+* Get Options
+  * `getAllSelectedOptions()`
+  * `getFirstSelectedOption()`
+  * `getOptions()`
+* Select methods for multiple-select
+  * `isMultiple(): boolean`
+
 ## Dynamic Tables in Selenium
+
+* 
