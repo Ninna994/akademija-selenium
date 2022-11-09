@@ -35,7 +35,7 @@
 3. [x] [WebDriver Commands - browser, navigation, webElement](selenium/WebdriverCommands.md)
 4. [x] [WebDriver Commands - handle radio buttons and checkboxes](selenium/HtmlElementHandling.md)
 5. [x] [WebDriver Commands - handle dropdowns - Select class](selenium/HtmlElementHandling.md)
-6. [ ] [WebDriver Commands - handle dynamic tables](selenium/HtmlElementHandling.md)
+6. [x] [WebDriver Commands - handle dynamic tables](selenium/HtmlElementHandling.md)
 7. [ ] [Waits](selenium/Waits.md)
 8. [ ] [Interactions - windows](selenium/WindowHandling.md)
 9. [ ] [Interactions - alerts and popups](selenium/AlertPopups.md)
