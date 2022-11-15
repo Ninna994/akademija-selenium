@@ -1,3 +1,5 @@
+package workshops;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
@@ -11,8 +13,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
-import java.util.function.Function;
-import java.util.function.Predicate;
 
 public class WaitExamples {
     WebDriver driver;
