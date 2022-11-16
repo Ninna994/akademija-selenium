@@ -13,7 +13,6 @@ import java.time.Duration;
 
 public class Alerts {
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Ina\\Desktop\\akademija-selenium\\drivers\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://demoqa.com/alerts");
